@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleToDoApp.css">
+    <title>ToDoApp</title>
+</head>
+
+<body>
+    <header class="overflowClass">
+        <div id="header">
+            <div id="icon" class="floatClassL">
+                <img src="LogoToDo.png" alt="Logo">
+
+            </div>
+            <div id="firstTitle" class="floatClassR">
+                <h3>Aplicación para la gestión de proyectos</h3>
+            </div>
+        </div>
+
+
+    </header>
+
+    <article>
+
+        <section id="firstSection">
+            <div id="create">
+
+                <div class="titleArticles">
+                    <h4>CREATE</h4>
+                    <hr>
+
+                </div>
+                <div id="formCreate" class="overflowClass">
+
+                    <div id="formCreateA" class="floatClassL">
+                        <form action="">
+                            <table>
+                                <tr>
+                                    
+                                    <td>Título</td>
+                                   
+                                </tr>
+                                <tr> 
+                                  <td> <input type="text" name="titulo" placeholder="" maxlength="50" required></td>
+                                   
+                                </tr>
+                                <tr>
+                                    
+                                    <td>Tags</td>
+                                    
+                                </tr>
+                                <tr>
+                                   <td>
+                                    <input type="text" name="tags" placeholder="">   
+                                   </td>
+                                    
+                                </tr>
+                            </table>
+
+                        </form>
+
+                    </div>
+
+                    <div id="formCreateB" class="floatClassR">
+                        <form action="">
+                            <table>
+                            <tr>
+                                <td>
+                                    Descripción
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <textarea name="description" id="" cols="50" rows="9"></textarea>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td id="bottonCreate" >
+                                    <input
+                                     type="submit" value="Enviar">
+                                </td>
+                            </tr>
+
+                            </table>
+
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="secondSection" class="overflowClass">
+            <div id="toDo" class="floatClassL">
+                <div class="titleArticles">
+                    <h4>TO DO</h4>
+                    <hr>
+
+                </div>
+
+
+            </div>
+            <div id="done" class="floatClassR">
+                <div class="titleArticles">
+                    <h4>DONE</h4>
+                    <hr>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </article>
+
+    <footer>
+
+        <h5> Todos los derechos reservados @2021</h5>
+    </footer>
+
+</body>
+
+</html>
