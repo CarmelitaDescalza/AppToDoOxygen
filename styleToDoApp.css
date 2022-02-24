@@ -139,7 +139,7 @@ article hr {
 #done {
 
     width: 45%;
-    height: 700px;
+/*    height: 700px;*/
     margin: auto;
     text-align: right;
     background-color: #256f92;
@@ -192,6 +192,47 @@ article hr {
 
 }
 
+.yellowTag {
+    margin: 10px;
+    padding: 5px 20px;
+    float: left;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 30px;
+    background-color: yellow;
+
+}
+.orangeTag {
+    margin: 10px;
+    padding: 5px 20px;
+    float: left;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 30px;
+    background-color: orange;
+
+}
+.greenTag {
+    margin: 10px;
+    padding: 5px 20px;
+    float: left;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 30px;
+    background-color: darkcyan;
+
+}
+.purpleTag {
+    margin: 10px;
+    padding: 5px 20px;
+    float: left;
+    text-align: center;
+    font-size: 0.8rem;
+    border-radius: 30px;
+    background-color: mediumpurple;
+
+}
+
 .textCardT {
     padding: 10px 20px;
     float: none;
@@ -221,6 +262,17 @@ article hr {
     border: none;
     border-radius: 0 0 30px 30px;
     background-color: aquamarine; 
+}
+
+.bottonChangeCardD input[type="submit"] {
+    width: 100%;   
+    padding: 10px 30px;
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: white;
+    border: none;
+    border-radius: 0 0 30px 30px;
+    background-color: darkorange; 
 }
 
 
