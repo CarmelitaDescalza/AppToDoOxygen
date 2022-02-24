@@ -146,7 +146,7 @@ list-style-type: none;
     width: 45%;
 /*    height: 700px;*/
     margin: auto;
-    text-align: right;
+    text-align: left;
     background-color: #256f92;
 
 }
@@ -268,6 +268,16 @@ list-style-type: none;
     border-radius: 0 0 30px 30px;
     background-color: aquamarine; 
 }
+.bottonChangeCardT input[type="submit"]:hover {
+    width: 100%;   
+    padding: 10px 30px;
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: white;
+    border: none;
+    border-radius: 0 0 30px 30px;
+    background-color: chocolate; 
+}
 
 .bottonChangeCardD input[type="submit"] {
     width: 100%;   
@@ -280,27 +290,31 @@ list-style-type: none;
     background-color: darkorange; 
 }
 
+.bottonChangeCardD input[type="submit"]:hover {
+    width: 100%;   
+    padding: 10px 30px;
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: white;
+    border: none;
+    border-radius: 0 0 30px 30px;
+    background-color: teal; 
+}
+
 
 /*Form*/
 
-
-h2 {
-    font-family: sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    color: gray;
-}
-
 form input {
     width: 100%;
-    font-size: 40px;
+    height: 40px;
+    font-size: 1rem;
     border-radius: 8px;
 
 }
 
 form select {
     width: 100%;
-    font-size: 40px;
+    font-size: 1rem;
 
 }
 
@@ -328,26 +342,38 @@ input,
 textarea,
 select {
     background: white;
-    border: 1px gray solid;
+    border: 1px aquamarine solid;
 }
 
 
 input:focus,
 textarea:focus,
 select:focus {
-    background: rgba(0, 0, 0, 0.1);
-    border: 1px black solid;
+/*    background: rgba(0, 0, 0, 0.1);*/
+    background: white;
+    border: 1px aquamarine solid;
 }
 
 input:hover,
 textarea:hover,
 select:hover {
-    background: gray;
-    border: 1px black solid;
+    background: white;
+    border: 1px aquamarine solid;
 }
 
 input[type="submit"] {
     background-color: aquamarine;
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 80%;
+}
+
+input[type="submit"]:hover {
+    background-color: cadetblue;
     padding: 10px 30px;
     font-size: 1rem;
     font-weight: bold;
