@@ -126,6 +126,11 @@ article hr {
     margin: 20px auto;
 }
 
+ul{
+list-style-type: none;
+
+}
+
 
 #toDo {
     width: 45%;
